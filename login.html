@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login: Olympedia</title>
 </head>
-<body>
+<body style="color: white; background-color: darkgray; background-image: url('src/imgs/loginBG.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <header>
         <h1>Login</h1>
         <h2>Seja bem-vindo! Acesse sua conta e confira as novidades.</h2>
-        
     </header>
+    <main>
+        <form>
+            <label for="user">Nome de Usuário:</label><br>
+            <input type="text" id="user" placeholder="Insira sua resposta..."><br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" placeholder="Insira sua resposta...">
+            <h5><a href="#"onclick="alert('LEMBRE')" style="color: white;">Esqueceu a senha?</a></h5> 
+        </form>
+        <button><a href="Olympedia.html" style="text-decoration: none;">Acessar</a></button>
+    </main>
 </body>
 </html>
